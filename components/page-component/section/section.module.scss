@@ -1,0 +1,36 @@
+$red : rgb(188, 22, 22);
+.section1{
+    .textContent{
+        padding-top: 200px;
+        width: 60%;
+        margin: auto;
+        h3{
+            font-size: 39px;
+        }
+        span{
+            color: $red;
+        }
+        .title::before{
+            content: "";
+            width: 10px;
+            height: 2px;
+            background-color: $red;
+        }
+        p{
+            font-weight: 500;
+            color: #464646;
+        }
+        .number{
+            font-weight: 700;
+            font-size: 15px;
+        }
+        .readMore{
+            margin-top: 15px;
+            background: $red;
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            border: 1px solid $red;
+        }
+    }
+}

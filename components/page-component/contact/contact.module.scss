@@ -1,0 +1,82 @@
+$red : rgb(188, 22, 22);
+.contact{
+    .textContent{
+        display: flex;
+        width: 50%;
+        margin: auto;
+        &>div{
+            width: 500px;
+            margin: auto;
+            .first{
+                border-left: 5px solid #bc1616;
+                padding-left: 18px;
+                letter-spacing: 3px;
+                font-size: 20px;
+                margin-bottom: 20px;
+                div{
+                    font-size: 40px;
+                }
+                span{
+                    color: $red;
+                }
+            }
+            .item{
+                display: flex;
+                margin-bottom: 20px;
+                .icon{
+                    svg{
+                        font-size: 55px;
+                        margin-right: 7px;
+                        color: #555252;
+                    }
+                }
+                h3,h4,p{
+                    margin-bottom: 0;
+                }
+                h3{
+                    color: $red;
+                }
+                .text{
+                    span{
+                        font-weight: 600;
+                        font-size: 18px;
+                    }
+                }
+            }
+            b{
+                font-size: 40px;
+            }
+        }
+        padding-top: 3vh;
+        align-items: center;
+        position: absolute;
+        justify-content: center;
+    }
+    .form{
+        background: #2E375F;
+        width: 400px;
+        padding: 46px 66px 1px 66px;
+        margin: auto;
+        input{
+            padding: 8px;
+        }
+        h3{
+            text-align: center;
+            color: #fff;
+            line-height: 0;
+            margin-bottom: 15px;
+        }
+        .hr{
+            margin-bottom: 40px;
+        }
+        button{
+            width: 100%;
+            margin-top: 15px;
+            background: $red;
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            border: 1px solid $red;
+        }
+    }
+}

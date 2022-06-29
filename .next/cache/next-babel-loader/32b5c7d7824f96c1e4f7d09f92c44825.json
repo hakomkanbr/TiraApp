@@ -1,0 +1,1 @@
+{"ast":null,"code":"import IcerikEkleDuznle from 'components/rssIcerikler/IcerikEkleDuzenle';\nimport React from 'react';\nimport { jsx as _jsx } from \"react/jsx-runtime\";\nexport default function IcerikEkleDuzenle() {\n  return /*#__PURE__*/_jsx(\"div\", {\n    children: /*#__PURE__*/_jsx(IcerikEkleDuznle, {})\n  });\n}","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,95 @@
+.slide-content {
+    .rate-slide {
+        display: block;
+        text-align: center;
+    }
+    .description{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .title {
+        font-size: 22px;
+        text-align: center;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .body{
+        padding: 5px 35px;
+    }
+    .addToCartBtn{
+        text-align: center;
+        float: left;
+        margin-top: 10px;
+        width: 50%;
+        button{
+            background-color: $red;
+            color: $white;
+            font-weight: 700;
+            border-radius: 20px;
+        }
+    }
+    .detailsBtn{
+        width: 50%;
+        float: right;
+        margin: 10px -24px 0 0;
+        button{
+            background-color: #168eea;
+            color: $white;
+            font-weight: 700;
+            border-radius: 20px;
+        }
+    }
+    .price{
+        text-align: center;
+        color: #999999;
+        font-size: 18px;
+        font-weight: 600;
+        del{
+            color: $red;
+        }
+    }
+    .bottom{
+        position: absolute;
+        bottom: 23px;
+        width: 64%;
+    }
+}
+.slide-content{
+    .slick-slide{
+        cursor: pointer;
+        position: relative;
+        padding: 10px 20px;
+
+        &>div{
+            height: 100%;
+            // width: 0%;
+            margin: auto;
+            box-shadow: 0px 5px 17px -4px rgba(105,105,105,0.75);
+            -webkit-box-shadow: 0px 5px 17px -4px rgba(105,105,105,0.75);
+            -moz-box-shadow: 0px 5px 17px -4px rgba(105,105,105,0.75);
+        }
+        height: 480px;
+    }
+}
+.slick-initialized{
+    margin-bottom: 60px;
+}
+.desc_1{
+    text-align: center;
+    color : $red;
+    text-transform: uppercase;
+}
+.heading_1{
+    text-align: center;
+}
+.slick-next{
+    right: 14px!important;
+}
+.slick-next:before{
+    font-size: 27px;
+    color : $red;
+}
+// .slick-prev{
+//     background-color: red;
+// }

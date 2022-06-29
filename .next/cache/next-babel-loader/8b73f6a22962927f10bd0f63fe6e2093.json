@@ -1,0 +1,1 @@
+{"ast":null,"code":"import styled from \"styled-components\";\nvar CardStyle = styled.div.withConfig({\n  displayName: \"Cardstyle__CardStyle\",\n  componentId: \"sc-sll4c-0\"\n})([\"&.site-card-border-less-wrapper{.ant-card{border-top:3px solid #ff0000;border-radius:5px;}}\"]);\nexport default CardStyle;","map":null,"metadata":{},"sourceType":"module"}

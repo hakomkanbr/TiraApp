@@ -1,0 +1,1 @@
+{"ast":null,"code":"var AdsYeri = [{\n  value: 1,\n  label: \"القسم العلوي\"\n}, {\n  value: 2,\n  label: \"القسم السفلي\"\n}, {\n  value: 3,\n  label: \"القسم الجانبي\"\n}];\nexport default AdsYeri;","map":null,"metadata":{},"sourceType":"module"}

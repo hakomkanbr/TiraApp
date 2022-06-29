@@ -1,0 +1,181 @@
+// Variables
+$regal-blue: #034378;
+$san-juan: #2d4e68;
+$bermuda: #77d7b9;
+$white: #fff;
+$black: #000;
+$red : rgb(188, 22, 22);
+$black : black;
+$open-sans: 'Open Sans',
+sans-serif;
+$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$lg :'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md:'only screen and (min-width: 768px) and (max-width: 991px)';
+$xs:'(max-width: 767px)';
+$sm: 'only screen and (min-width: 576px) and (max-width: 767px)';
+
+
+// Extra Responsive
+
+/*-------------   Color variabel  --------------*/
+
+//Colors
+$white: #ffffff;
+$black: #000;
+$gray:#f7f7fd;
+
+// font-color
+$heading-color:#000;
+
+//Theme color
+$theme-color: #d71920;
+$theme-color2: #222222;
+$theme-color3: #f27420;
+$theme-color4: #ff3500;
+
+
+$body-text-color: #555;
+$hr-border-color:#eceff8;
+
+// btn and Section color
+
+$btn_bg: #ff656a;
+
+$btn_hover: #dca73a;
+$section_bg: #f7f7f7;
+$section_bg_1: #454545;
+$heading_color2: #ff8b23;
+
+$medium_device : 'only screen and (min-width: 992px) and (max-width: 1200px)';
+$tab_device:'only screen and (min-width: 768px) and (max-width: 991px)';
+$large_mobile: 'only screen and (min-width: 576px) and (max-width: 767px)';
+$tab: '(max-width: 991px)';
+$small_mobile:'(max-width: 576px)';
+$xs_mobile:'(max-width: 420px)';
+$sm_mobile:'only screen and (min-width: 421px) and (max-width: 575px)';
+$big_screen:'only screen and (min-width: 1200px) and (max-width: 1440px)';
+$extra_big_screen: 'only screen and (min-width: 1200px) and (max-width: 3640px)';
+
+
+// More Extra Responsive
+$large_device_2:'(min-width: 1501px) and (max-width: 1700px)';
+$large_device:'(min-width: 1200px) and (max-width: 1500px)';
+$mid_device:'(min-width: 992px) and (max-width: 1200px)';
+$tablet_device:'(min-width: 768px) and (max-width: 991px)';
+$mobile_device:'(max-width: 767px)';
+$large_mobile:'only screen and (min-width: 480px) and (max-width: 767px)';
+
+
+// Font Family
+$font_1 :'arabic_regular';
+$font_2 :'arabic_regular';
+
+$heading_color2: #000;
+$white_color:#fff;
+
+$gray-color: #bebebe;
+$gray-color-2: #bdbdbd;
+
+
+
+$gray-color3:#5c5c5c;
+$white_color:#fff;
+
+
+// font color
+$font_color1: #506172;
+
+$border_color: #fdcb9e;
+$footer_bg: #303030;
+$sidebar_bg: #fbf9ff;
+
+
+
+
+// bg
+$brand-bg: #f1f4fa;
+$testimonial-bg:#f9fafc;
+
+
+// Soft color
+$black-soft:#7e7e7e;
+
+// Section Bg color
+$blue-bg1:#00163e;
+$default: #f9f9ff;
+$primary: $theme-color2;
+$success: #4cd3e3;
+$info: #38a4ff;
+$warning: #f4e700;
+$danger: #f44a40;
+$link: #f9f9ff;
+$disable: (#222222, .3);
+$primary-color: #7c32ff;
+$primary-color1: #c738d8;
+$title-color: #415094;
+$text-color: #828bb2;
+$white: #fff;
+$offwhite: #f9f9ff;
+$black: #000;
+
+
+
+//    Mixins
+@mixin transition($args: all 0.3s ease 0s) {
+    -webkit-transition: $args;
+    -moz-transition: $args;
+    -o-transition: $args;
+    transition: $args;
+}
+
+@mixin transition-duration($args1, $args2) {
+    -webkit-transition-duration: $args1, $args2;
+    -moz-transition-duration: $args1, $args2;
+    -o-transition-duration: $args1, $args2;
+    transition-duration: $args1, $args2;
+}
+
+@mixin transition-delay($args1, $args2) {
+    -webkit-transition-delay: $args1, $args2;
+    -moz-transition-delay: $args1, $args2;
+    -o-transition-delay: $args1, $args2;
+    transition-delay: $args1, $args2;
+}
+
+@mixin transition-property($args1, $args2) {
+    -webkit-transition-property: $args1, $args2;
+    -moz-transition-property: $args1, $args2;
+    -o-transition-property: $args1, $args2;
+    transition-property: $args1, $args2;
+}
+
+@mixin filter($filter-type, $filter-amount) {
+    -webkit-filter: $filter-type+unquote("(#{$filter-amount})");
+    -moz-filter: $filter-type+unquote("(#{$filter-amount})");
+    -ms-filter: $filter-type+unquote("(#{$filter-amount})");
+    -o-filter: $filter-type+unquote("(#{$filter-amount})");
+    filter: $filter-type+unquote("(#{$filter-amount})");
+}
+
+@mixin gradient($deg, $args1,$args2){
+    background: -webkit-linear-gradient($deg, $args1, $args2);
+    background: -moz-linear-gradient($deg, $args1, $args2);
+    background: -o-linear-gradient($deg, $args1, $args2);
+    background: -ms-linear-gradient($deg, $args1, $args2);
+    background: linear-gradient($deg, $args1, $args2);
+}
+
+@mixin transform($transform) {
+    -webkit-transform: $transform;
+    -moz-transform: $transform;
+    -ms-transform: $transform;
+    -o-transform: $transform;
+    transform: $transform;
+}
+
+@mixin animation($args) {
+    -webkit-animation: $args;
+    -moz-animation: $args;
+    -o-animation: $args;
+    animation: $args;
+}

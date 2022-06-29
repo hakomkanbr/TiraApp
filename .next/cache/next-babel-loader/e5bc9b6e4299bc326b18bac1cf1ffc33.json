@@ -1,0 +1,1 @@
+{"ast":null,"code":"import moment from \"moment\";\n\nconst convertDate = e => {\n  return moment(e).format(\"DD/MM/YYYY\");\n};\n\nexport default convertDate;","map":null,"metadata":{},"sourceType":"module"}
