@@ -59,7 +59,7 @@ const SliderCustum = () => {
                     display: state.display ? "block" : "none"
                 }}
             >
-                <h1 class="heading_1"><span>{categoryName ?? title}</span></h1>
+                <h1 className="heading_1"><span>{categoryName ?? title}</span></h1>
                 <Slider {...settings}>
                     {
                         rssEvent?.map((b, i) => {

@@ -72,7 +72,7 @@ export default function MainComponent() {
             <Row>
                 {/* <RightSidebar/> */}
                 <Col sm={8}>
-                    <h1 class="heading_1"><span>{categoryName}</span></h1>
+                    <h1 className="heading_1"><span>{categoryName}</span></h1>
                     <CardLg data={data}></CardLg>
                     <Pagination onChange={paginationChage}>
                         <Pagination.First onClick={(e)=>{setActive(1)}}/>

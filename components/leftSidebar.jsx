@@ -60,9 +60,9 @@ export default function LeftSidebar() {
             setEnFazlaOkuyanlar(res.data);
 
         }
-        getData2();
-        getData1();
-        getData3();
+        // getData2();
+        // getData1();
+        // getData3();
     }, []);
 
     useEffect(() => {
@@ -74,7 +74,7 @@ export default function LeftSidebar() {
 
     return (
         <div className="left-content">
-            <h1 class="heading_1 leftSideBar" style={{padding : "20px 0 0"}}><span>Filtere</span></h1>
+            <h1 className="heading_1 leftSideBar" style={{padding : "20px 0 0"}}><span>Filtere</span></h1>
             <div className="p-20">
                 <div className="m-b-20">
                     <InputCustum placeholder="width" />

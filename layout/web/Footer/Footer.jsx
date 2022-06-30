@@ -40,8 +40,8 @@ export default function Footer() {
                             <div className="row">
                                 <div className="col-md-4 mb-md-0 mb-4">
                                     <h2 className="footer-heading">الأقسام</h2>
-                                    <div class="widget-content">
-                                        <ul class="tags">
+                                    <div className="widget-content">
+                                        <ul className="tags">
                                             {
                                                 kategoriler?.map((v, i) => (
                                                     <li><a href="#" onClick={(e) => { window.location.assign("/category/" + v.name + "-" + v.id) }} className="py-1 d-block"><span className="ion-ios-checkmark-circle-outline mr-2"></span>{v.name}</a></li>
@@ -62,19 +62,19 @@ export default function Footer() {
                     </div>
                 </div>
             </footer>
-            <footer class="footer-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="footer-links">
-                                <li><a class="hover-line" href="#">Terms of Use</a></li>
-                                <li><a class="hover-line" href="#">Ad Choices</a></li>
-                                <li><a class="hover-line" href="#">Licence Footage</a></li>
-                                <li><a class="hover-line" href="#">Sitemap</a></li>
+            <footer className="footer-section">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6">
+                            <ul className="footer-links">
+                                <li><a className="hover-line" href="#">Terms of Use</a></li>
+                                <li><a className="hover-line" href="#">Ad Choices</a></li>
+                                <li><a className="hover-line" href="#">Licence Footage</a></li>
+                                <li><a className="hover-line" href="#">Sitemap</a></li>
                             </ul>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="copyright">© <script> document.write(new Date().getFullYear())</script>2022 Notizie Powered by DynamicLayers</div>
+                        <div className="col-lg-6">
+                            <div className="copyright">© <script> document.write(new Date().getFullYear())</script>2022 Notizie Powered by DynamicLayers</div>
                         </div>
                     </div>
                 </div>

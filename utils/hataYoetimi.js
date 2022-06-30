@@ -7,7 +7,7 @@ const convertErrorsToHtml = (errors, htmlType) => {
   let html = ``;
   if (Array.isArray(errors) && errors.length > 0) {
     errors.map((err, i) => {
-      html += `<ul class="callout callout-${
+      html += `<ul className="callout callout-${
         err?.key == "error" ? "danger" : err.key != null ? err.key : "danger"
       }"> <li> ${err?.title ? `<div>${err.title}</div>` : ""}${
         err?.description ? err.description : "حصل خطأ غير معروف"
@@ -15,7 +15,7 @@ const convertErrorsToHtml = (errors, htmlType) => {
       </ul>`;
     });
   } else {
-    html = `<ul class="callout callout-${
+    html = `<ul className="callout callout-${
       errors?.key == "error"
         ? "danger"
         : errors?.key != null

@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { Fragment as _Fragment } from \"react/jsx-runtime\";\nimport { jsx as _jsx } from \"react/jsx-runtime\";\n\nconst LayoutWeb = ({\n  children\n}) => {\n  return /*#__PURE__*/_jsx(_Fragment, {\n    children: children\n  });\n};\n\nexport default LayoutWeb;","map":null,"metadata":{},"sourceType":"module"}

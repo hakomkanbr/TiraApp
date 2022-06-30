@@ -48,7 +48,7 @@ export default function NavbarMenu({sosyal}) {
             dispatch(setKategoriler(res));
         }
         fetchData();
-        fetchAds();
+        // fetchAds();
     }, []);
 
     useEffect(() => {

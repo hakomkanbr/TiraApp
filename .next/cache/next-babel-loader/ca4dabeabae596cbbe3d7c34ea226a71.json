@@ -1,1 +1,0 @@
-{"ast":null,"code":"import moment from \"moment\";\n\nvar convertDate = function convertDate(e) {\n  return moment(e).format(\"DD/MM/YYYY\");\n};\n\nexport default convertDate;","map":null,"metadata":{},"sourceType":"module"}

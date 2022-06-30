@@ -1,1 +1,0 @@
-{"ast":null,"code":"import { combineReducers } from 'redux';\nimport App from './app/reducer'; // npm i next-redux-wrapper redux react-redux redux-thunk redux-devtools-extension\n\nvar rootReducer = combineReducers({\n  App: App\n});\nexport default rootReducer;","map":null,"metadata":{},"sourceType":"module"}
