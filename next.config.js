@@ -1,6 +1,6 @@
 module.exports = {
     env: {
-        "BASE_URL": "http://localhost:3000/api",
+        "BASE_URL": "https://jsonplaceholder.typicode.com",
         "MONGODB_URL": "mongodb://localhost:27017/db_Haktech_01",
         "TOKEN_NAME" : "appToken",
         // "ACCESS_TOKEN_SECRET": "YOUR_ACCESS_TOKEN_SECRET",
