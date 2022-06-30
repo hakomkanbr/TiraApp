@@ -6,14 +6,14 @@ import Footer from "layout/web/Footer/Footer";
 import NavbarMenu from "layout/web/navbar/Navbar";
 import { getData } from "utils/fetchData";
 
-const Home = ({products , sosyal}) => {
+const Home = ({sosyal}) => {
   return(
     <div className="home_page">
-      <NavbarMenu sosyal={sosyal}/>
+      {/* <NavbarMenu sosyal={sosyal}/> */}
       <Manset/>
       <Section1/>
-      <Product title={true} products={products}/>
-      <Product title={false} products={products}/>
+      {/* <Product title={true} products={products}/>
+      <Product title={false} products={products}/> */}
       <Contact/>
       <Footer/>
     </div>
@@ -23,15 +23,13 @@ const Home = ({products , sosyal}) => {
 export async function getStaticProps() {
   // Call an external API endpoint to get posts.
   // You can use any data fetching library
-    const products = await getData("/Site/GetProducts");
-    const sosyal = await getData("/Site/GetSocials");
+  // const sosyal = await getData("/Site/GetSocials");
 
   // By returning { props: { posts } }, the Blog component
   // will receive `posts` as a prop at build time
   return {
     props: {
-      products,
-      sosyal
+      sosyal : []
     },
   }
 }
