@@ -1,7 +1,7 @@
 module.exports = {
     env: {
-        "BASE_URL": "https://napi.akhbaryemen.com/api",
-        "MONGODB_URL": "mongodb://localhost:27017/db_Haktech_01",
+        "BASE_URL": "https://napi.tiraapp.com/api",
+        "MONGODB_URL": "mongodb://localhost:27017/db_tiraApp",
         "TOKEN_NAME" : "appToken",
         // "ACCESS_TOKEN_SECRET": "YOUR_ACCESS_TOKEN_SECRET",
         // "REFRESH_TOKEN_SECRET": "YOUR_REFRESH_TOKEN_SECRET",
